@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "build:lib": "ng-packagr",
 	"build:css": "node scripts/build-scss.js",
-    "link:lib": "rimraf node_modules/angular2-draggable && cpr dist/lib node_modules/angular2-draggable",
+    "link:lib": "rimraf node_modules/@wfm/angular2-draggable && cpr dist/lib node_modules/@wfm/angular2-draggable",
     "update:md": "cpr README.md dist/lib/README.md -o",
     "dist": "run-s build:lib update:md",
     "release": "run-s build:lib build:css update:md link:lib build:doc",
