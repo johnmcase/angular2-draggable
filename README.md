@@ -19,6 +19,9 @@ Angular directive (for version >= 4.x ) that makes the DOM element draggable.
 angular2-draggable is an angular (ver >= 4.x) directive that makes the DOM element draggable. (Note that: It's different from drag-and-drop)
 
 # Latest Update
++ 2019.01.17: 1.5.1
+  + Fix public api.
+
 + 2019.01.08: 1.5.0
   + Backport resizable directive to 1.x line to enable it for Angular 4.
 
